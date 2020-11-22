@@ -1,0 +1,150 @@
+.carousel-item {
+  /*height: 100vh;*/
+  min-height: 100px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 270px;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+} 
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+  font-size: 19px;
+
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+}
+
+#Nav-hov:hover{color: red;color: #D2691E;font-size: 20px;}
+
+
+
+/* ignore the code below */
+
+
+.link-area
+{
+  position:fixed;
+  bottom:20px;
+  left:20px;  
+  padding:15px;
+  border-radius:40px;
+  background:tomato;
+}
+.link-area a
+{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+}
+
+
+.change_content:after{
+  content: '';
+  animation: changetext1 10s infinite linear;
+color: #D2691E;
+}
+@keyframes changetext1{
+  0%{content:"20% Discount";}
+  20%{content:"Cash Back 10%";}
+  35%{content:"Give Away";}
+ /* 60%{content:"Nyan Lin Htet";}
+  80%{content:"Kyu Kyu Hlaing";}
+  100%{content:"Win Ko KO Hlaing";}*/
+}
+
+
+
+.change_content1:after{
+  content: '';
+  animation: changetext 10s infinite linear;
+color: #D2691E;
+}
+@keyframes changetext{
+  0%{content:"50%";}
+  20%{content:"One Cuopon";}
+  35%{content:"Cash Back";}
+ /* 60%{content:"FACEBOOK";}
+  80%{content:"INSTAGRAM";}
+  100%{content:"ALIBABA";}*/
+}
+#move:hover{color: transparent;}
+#move{font-weight: bold;font-size: 30px;}
+
+.Pos{
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+
+.btn_right{
+  font-weight: bold;
+
+}
+.btn_right:hover{background-color: transparent;color: silver;}
+
+.btn_left{
+  font-weight: bold;
+  color: black;
+  background-color: #D2691E;
+  border:1px solid:#D2691E ;
+
+}
+.btn_left:hover{color:#D2691E;font-weight: bold;background-color: transparent;border:1px solid #D2691E;}
+
+#txt-deco{
+  text-shadow: 1px 1px 0px black;
+}
